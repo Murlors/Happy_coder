@@ -22,7 +22,6 @@ void dfs(int i, int j, int cnt) {
     if (i == n && j == n) {
         if (mp[i][j] == '.' && judge(i, j)) cnt++;
         if (cnt > ma) ma = cnt;
-        return;
     } else {
         if (mp[i][j] == '.' && judge(i, j)) {
             mp[i][j] = 'O';
