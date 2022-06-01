@@ -1,7 +1,8 @@
 /*
 URL:http://poj.org/problem?id=1915
 完成日期:2022.4.28
-所用方法:广搜
+题目大意:求棋盘上起点到终点最少的步数
+所用方法:BFS<(可以尝试一下双向BFS(首末一起搜))
 */
 #include "iostream"
 #include "queue"
@@ -25,8 +26,7 @@ inline void bfs() {
         q.pop();
         for (int i = 0; i < 8; ++i) {
             next_l = pre_l;
-            next_l.x += dx[i];
-            next_l.y += dy[i];
+            next_l.x += dx[i], next_l.y += dy[i];
             next_l.cnt++;
             if (next_l.x == ex && next_l.y == ey) {
                 ans = next_l.cnt;
@@ -46,7 +46,8 @@ int main() {
         cin >> l;
         cin >> pre_l.x >> pre_l.y;
         cin >> ex >> ey;
-        if (pre_l.x != ex || pre_l.y != ey)bfs();
+        if (pre_l.x != ex || pre_l.y != ey)
+            bfs();
         while (!q.empty()) q.pop();
         cout << ans << "\n";
     }

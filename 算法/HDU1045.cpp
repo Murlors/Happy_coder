@@ -1,7 +1,8 @@
 /*
 URL:http://acm.hdu.edu.cn/showproblem.php?pid=1045
 完成日期:2022.4.27
-所用方法:暴力深搜
+题目大意:地图中有一些墙，每两个炮台之间必须有一堵墙,否则这两个炮台就会互相摧毁
+所用方法:暴力DFS
 */
 #include "bits/stdc++.h"
 using namespace std;
