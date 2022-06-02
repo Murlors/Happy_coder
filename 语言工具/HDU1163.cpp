@@ -1,7 +1,7 @@
 /*
-URL:http://poj.org/problem?id=2785
+URL:http://acm.hdu.edu.cn/showproblem.php?pid=1163
 完成日期:2022.6.2
-题目大意:四数之和为0
+题目大意:求n的n次方的数根
 所用方法:九余数定理(num=999*a+99*b+9*c+(a+b+c+d),num%9=(a+b+c+d)%9)、
         同余定理(两个乘积除以m的余数等于这两个数分别除以m的余数的积)
 */
