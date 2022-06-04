@@ -2,7 +2,7 @@
 URL:http://poj.org/problem?id=3318
 完成日期:2022.6.3
 题目大意:矩阵相乘,判断AXB是否等于C
-所用方法:贪心,随机化算法(MonteCarlo,蒙特卡罗算法)
+所用方法:随机化算法(MonteCarlo,蒙特卡罗算法)
 */
 #include "cstdio"
 #include "cstring"
