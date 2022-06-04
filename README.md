@@ -25,7 +25,7 @@
 | FZU1081    | 等分液体                           | 算法     | BFS              |          |
 | HDU2041    | 超级楼梯                           | 算法     | 递归             | ✅        |
 | JSKA2230   | 抠图                               | 算法     | BFS              | ✅       |
-| POJ1844    | Sum                                | 算法     | DP               |          |
+| POJ1844    | Sum                                | 算法     | DP               | ✅       |
 | POJ3977    | Subset                             | 算法     |                  |          |
 | POJ1088    | 滑雪                               | 算法     | DP               |          |
 | POJ1050    | To the Max                         | 算法     | DP               |          |
