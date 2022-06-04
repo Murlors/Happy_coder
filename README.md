@@ -21,7 +21,7 @@
 | POJ2454    | Jersey Politics                    | 算法     | 随机化           | ✅        |
 | POJ3318    | Matrix Multiplication              | 算法     | 随机化           | ✅        |
 | HDU5890    | Eighty Seven                       | 算法     | DP               |          |
-| HDU3763    | CD                                 | 算法     | 搜索             |          |
+| HDU3763    | CD                                 | 算法     | 搜索             | ✅       |
 | FZU1081    | 等分液体                           | 算法     | BFS              |          |
 | HDU2041    | 超级楼梯                           | 算法     | 递归             |          |
 | JSKA2230   | 抠图                               | 算法     | BFS              |          |
